@@ -1,0 +1,87 @@
+body {
+  margin: 20px;
+  padding: 0;
+  font: 14px "Century Gothic", Futura, sans-serif;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.info {
+  display: flex;
+  align-items: start;
+  flex-direction: row;
+}
+
+.action {
+  margin-left: auto;
+}
+
+.game-board {
+  display: flex;
+  margin-right: 20px;
+}
+
+.game-info {
+  margin-right: 20px;
+}
+
+.turn {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#player-turn-box{
+  width: 32px;
+  height: 32px;
+  border: 1px solid #000;
+  margin-bottom: 10px;
+}
+
+.game-status {
+  min-height: 50px;
+  max-width: 32px;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.undo {
+  display: block;
+  margin-bottom: 7px;
+  width: 42px;
+  height: 42px;
+  align-items: center;
+}
+
+figure {
+  margin: 0
+}
+
+figure figcaption {
+  text-align: center;
+}
+
+.blinking{
+  animation:blinkingText 1s infinite;
+}
+@keyframes blinkingText{
+  0%{		color: #000;	}
+  49%{	color: transparent;	}
+  50%{	color: #000;	}
+  99%{	color:#000;	}
+  100%{	color: #000;	}
+}
+
+.clock {
+  font-size: 18px
+}

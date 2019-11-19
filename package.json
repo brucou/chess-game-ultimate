@@ -1,0 +1,30 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "create-react-app": "^1.5.2",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "kingly": "^0.18.2",
+    "react-state-driven": "^0.10.3",
+    "emitonoff": "^0.1.0",
+    "react-hyperscript": "^3.2.0",
+    "chess.js": "0.10.2",
+    "chessboardjsx": "2.2.0",
+    "hyperscript-helpers": "^3.0.3"
+  },
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "license": "MIT"
+}
